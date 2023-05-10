@@ -1,6 +1,7 @@
 README.md
 setup.py
 sensor/__init__.py
+sensor/config.py
 sensor/exception.py
 sensor/logger.py
 sensor.egg-info/PKG-INFO
@@ -15,9 +16,9 @@ sensor/Components/data_validation.py
 sensor/Components/model_evaluation.py
 sensor/Components/model_pusher.py
 sensor/Components/model_trainer.py
-sensor/Entity/__init__.py
-sensor/Entity/artifact_entity.py
-sensor/Entity/config_entity.py
 sensor/Pipeline/__init__.py
 sensor/Pipeline/training_pipeline.py
 sensor/Utils/__init__.py
+sensor/entity/__init__.py
+sensor/entity/artifact_entity.py
+sensor/entity/config_entity.py
